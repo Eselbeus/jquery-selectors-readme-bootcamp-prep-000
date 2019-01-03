@@ -15,5 +15,11 @@ function ninjaBabySelector(){
 }
 
 function divSelector(){
-  
+  let picsDiv = $("div .pics");
+  return picsDiv;
+}
+
+function firstListItem(){
+  let first = $("ul li:first-child");
+  return first;
 }
